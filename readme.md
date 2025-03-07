@@ -32,13 +32,15 @@ Make sure you have the following installed:
 ## Setup
 
 1. Clone the repository:
+
    ```sh
-   git clone https://github.com/yourusername/aave-dex.git
-   cd aave-dex
+   git clone https://github.com/GAAKASH2003/Decentralised-Exchange.git
+
    ```
+
 2. Install dependencies:
    ```sh
-   npm install
+   yarn add --dev
    ```
 3. Create a `.env` file and add the required environment variables:
    ```env
@@ -83,10 +85,6 @@ To deploy the contracts:
 ```sh
 yarn hardhat deploy
 ```
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contributing
 
